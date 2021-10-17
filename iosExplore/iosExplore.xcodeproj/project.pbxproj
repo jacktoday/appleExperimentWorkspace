@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F06F68D26E525FC003241F0 /* BullsEyeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F06F68C26E525FC003241F0 /* BullsEyeViewController.swift */; };
+		7FB8A98C26E7AA6000618CB5 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8A98B26E7AA6000618CB5 /* ChecklistViewController.swift */; };
 		7FD2836526D24EFD0031A4B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2836426D24EFD0031A4B9 /* AppDelegate.swift */; };
 		7FD2836726D24EFD0031A4B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2836626D24EFD0031A4B9 /* SceneDelegate.swift */; };
 		7FD2836926D24EFD0031A4B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2836826D24EFD0031A4B9 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F06F68C26E525FC003241F0 /* BullsEyeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeViewController.swift; sourceTree = "<group>"; };
+		7FB8A98B26E7AA6000618CB5 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		7FD2836126D24EFD0031A4B9 /* iosExplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosExplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD2836426D24EFD0031A4B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FD2836626D24EFD0031A4B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				7FD2836D26D24F010031A4B9 /* Assets.xcassets */,
 				7FD2836F26D24F010031A4B9 /* LaunchScreen.storyboard */,
 				7FD2837226D24F010031A4B9 /* Info.plist */,
+				7F06F68C26E525FC003241F0 /* BullsEyeViewController.swift */,
+				7FB8A98B26E7AA6000618CB5 /* ChecklistViewController.swift */,
 			);
 			path = iosExplore;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 				7FD2836926D24EFD0031A4B9 /* ViewController.swift in Sources */,
 				7FD2836526D24EFD0031A4B9 /* AppDelegate.swift in Sources */,
 				7FD2836726D24EFD0031A4B9 /* SceneDelegate.swift in Sources */,
+				7FB8A98C26E7AA6000618CB5 /* ChecklistViewController.swift in Sources */,
+				7F06F68D26E525FC003241F0 /* BullsEyeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

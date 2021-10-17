@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:StoreSearch/StoreSearch.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:swiftUIIos/swiftUIIos.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:iosExplore/iosExplore.xcodeproj">
    </FileRef>
    <FileRef
