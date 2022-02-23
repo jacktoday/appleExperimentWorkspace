@@ -14,6 +14,11 @@
 		7FDFD359271BD38400436D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFD358271BD38400436D7F /* Assets.xcassets */; };
 		7FDFD35C271BD38400436D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFD35A271BD38400436D7F /* LaunchScreen.storyboard */; };
 		7FDFD364271BF44F00436D7F /* SeachResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFD363271BF44F00436D7F /* SeachResult.swift */; };
+		7FDFD366271BF90600436D7F /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFD365271BF90600436D7F /* SearchResultCell.xib */; };
+		7FDFD368271C002400436D7F /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFD367271C002400436D7F /* SearchResultCell.swift */; };
+		7FDFD36A271C026300436D7F /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFD369271C026300436D7F /* NothingFoundCell.xib */; };
+		7FDFD36E271C6D0A00436D7F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFD36D271C6D0A00436D7F /* MasterViewController.swift */; };
+		7FDFD370271C6D9B00436D7F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFD36F271C6D9B00436D7F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		7FDFD35B271BD38400436D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FDFD35D271BD38400436D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FDFD363271BF44F00436D7F /* SeachResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeachResult.swift; sourceTree = "<group>"; };
+		7FDFD365271BF90600436D7F /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		7FDFD367271C002400436D7F /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		7FDFD369271C026300436D7F /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		7FDFD36D271C6D0A00436D7F /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		7FDFD36F271C6D9B00436D7F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,11 @@
 				7FDFD35A271BD38400436D7F /* LaunchScreen.storyboard */,
 				7FDFD35D271BD38400436D7F /* Info.plist */,
 				7FDFD363271BF44F00436D7F /* SeachResult.swift */,
+				7FDFD365271BF90600436D7F /* SearchResultCell.xib */,
+				7FDFD367271C002400436D7F /* SearchResultCell.swift */,
+				7FDFD369271C026300436D7F /* NothingFoundCell.xib */,
+				7FDFD36D271C6D0A00436D7F /* MasterViewController.swift */,
+				7FDFD36F271C6D9B00436D7F /* DetailViewController.swift */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -130,6 +145,8 @@
 			files = (
 				7FDFD35C271BD38400436D7F /* LaunchScreen.storyboard in Resources */,
 				7FDFD359271BD38400436D7F /* Assets.xcassets in Resources */,
+				7FDFD366271BF90600436D7F /* SearchResultCell.xib in Resources */,
+				7FDFD36A271C026300436D7F /* NothingFoundCell.xib in Resources */,
 				7FDFD357271BD38200436D7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,8 +160,11 @@
 			files = (
 				7FDFD354271BD38200436D7F /* ViewController.swift in Sources */,
 				7FDFD350271BD38200436D7F /* AppDelegate.swift in Sources */,
+				7FDFD36E271C6D0A00436D7F /* MasterViewController.swift in Sources */,
 				7FDFD352271BD38200436D7F /* SceneDelegate.swift in Sources */,
 				7FDFD364271BF44F00436D7F /* SeachResult.swift in Sources */,
+				7FDFD368271C002400436D7F /* SearchResultCell.swift in Sources */,
+				7FDFD370271C6D9B00436D7F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

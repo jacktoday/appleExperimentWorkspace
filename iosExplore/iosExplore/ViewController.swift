@@ -21,6 +21,14 @@ class ViewController: UIViewController {
         let tapGestureRecongnizer = UITapGestureRecognizer(target: self, action: #selector(viewTap))
         firstViewContainer.addGestureRecognizer(tapGestureRecongnizer)
         secondViewContainer.addGestureRecognizer(tapGestureRecongnizer)
+        
+        Task {
+            print("******1)
+        }
+                  print("******2)
+        
+        
+        
     }
     
     @objc func viewTap(_ sender: UITapGestureRecognizer) {
