@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../bestappsclub/MyKit/MyKit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MyTv/MyTv.xcodeproj">
    </FileRef>
    <FileRef

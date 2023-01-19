@@ -17,6 +17,8 @@
 		7FD2837126D24F010031A4B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2836F26D24F010031A4B9 /* LaunchScreen.storyboard */; };
 		7FD2837C26D24F010031A4B9 /* iosExploreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2837B26D24F010031A4B9 /* iosExploreTests.swift */; };
 		7FD2838726D24F010031A4B9 /* iosExploreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2838626D24F010031A4B9 /* iosExploreUITests.swift */; };
+		7FDA132C2979936E000C769D /* MyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDA132B2979936E000C769D /* MyKit.framework */; };
+		7FDA132E29799493000C769D /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA132D29799493000C769D /* EmptyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		7FD2838226D24F010031A4B9 /* iosExploreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosExploreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD2838626D24F010031A4B9 /* iosExploreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosExploreUITests.swift; sourceTree = "<group>"; };
 		7FD2838826D24F010031A4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FDA132B2979936E000C769D /* MyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDA132D29799493000C769D /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FDA132C2979936E000C769D /* MyKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +92,7 @@
 				7FD2837A26D24F010031A4B9 /* iosExploreTests */,
 				7FD2838526D24F010031A4B9 /* iosExploreUITests */,
 				7FD2836226D24EFD0031A4B9 /* Products */,
+				7FDA132A2979936E000C769D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +118,7 @@
 				7FD2837226D24F010031A4B9 /* Info.plist */,
 				7F06F68C26E525FC003241F0 /* BullsEyeViewController.swift */,
 				7FB8A98B26E7AA6000618CB5 /* ChecklistViewController.swift */,
+				7FDA132D29799493000C769D /* EmptyViewController.swift */,
 			);
 			path = iosExplore;
 			sourceTree = "<group>";
@@ -132,6 +139,14 @@
 				7FD2838826D24F010031A4B9 /* Info.plist */,
 			);
 			path = iosExploreUITests;
+			sourceTree = "<group>";
+		};
+		7FDA132A2979936E000C769D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA132B2979936E000C769D /* MyKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FDA132E29799493000C769D /* EmptyViewController.swift in Sources */,
 				7FD2836926D24EFD0031A4B9 /* ViewController.swift in Sources */,
 				7FD2836526D24EFD0031A4B9 /* AppDelegate.swift in Sources */,
 				7FD2836726D24EFD0031A4B9 /* SceneDelegate.swift in Sources */,
@@ -374,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -429,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
